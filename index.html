@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joey's greatest recipes</title>
     <style>
-      img {
+      #dinner {
         width: 450px;
+      }
+      .hyperlink {
+        background-color: antiquewhite;
+        background-blend-mode: hue;
+        width: 200px;
+        border-radius: 10px;
       }
     </style>
   </head>
@@ -14,9 +20,11 @@
   <body style="background-color: blanchedalmond">
     <h1>Welcome to my food blog!</h1>
     <img
+      id="dinner"
       src="./images/shot-of-vegan-food.jpg"
       alt="a display of a beautiful dinner"
     />
+
     <h3>I have everything you need for your next dinner</h3>
     <p style="width: 650px">
       Do you know the feeling you get when there's guests about to arrive, and
@@ -32,7 +40,7 @@
     </p>
 
     <!--Hyperlinks to recipes-->
-    <div>
+    <div class="hyperlink">
       <ul>
         <li>
           <a href="./pages/page1.html">Ham pie</a>

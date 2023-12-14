@@ -8,16 +8,30 @@
       body {
         background-color: rgb(63, 35, 5);
       }
-      img {
+      #back {
+        color: blanchedalmond;
+      }
+      #cake {
         width: 500px;
         margin-left: 40px;
         border-radius: 10px;
+      }
+      #to-top {
+        color: blanchedalmond;
+      }
+      #ingredients {
+        float: left;
+      }
+      #steps {
+        margin-left: 400px;
+
+        width: 600px;
       }
     </style>
   </head>
 
   <body style="color: blanchedalmond">
-    <a href="/index.html">Back</a>
+    <a id="back" href="/index.html">Back</a>
     <h1>Joey's Chocolate Cake</h1>
     <p style="width: 500px">
       Joey's Chocolate Cake is among <em> the most</em> sweet cakes out there,
@@ -26,11 +40,12 @@
       liquid chocolate slowly running from the top and inside.
     </p>
     <img
+      id="cake"
       src="/images/Chocolate cake.jpg"
       alt="A photo of a chocolate cake, dripping with liquid chocolate"
     />
     <!--Ingredients-->
-    <div style="float: left">
+    <div id="ingredients">
       <h3>Ingredients:</h3>
       <h4>Bottoms</h4>
       <ul>
@@ -59,7 +74,7 @@
     </div>
 
     <!--Steps-->
-    <div style="margin-left: 400px; margin-top: 30px; width: 600px">
+    <div id="steps">
       <h3>Steps</h3>
       <h4>Bottoms</h4>
       <ol>
@@ -123,5 +138,6 @@
         </li>
       </ol>
     </div>
+    <a id="to-top" href="./page2.html">To top</a>
   </body>
 </html>

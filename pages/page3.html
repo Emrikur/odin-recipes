@@ -8,23 +8,36 @@
       body {
         background-color: blanchedalmond;
       }
-      img {
+      #back {
+        color: black;
+      }
+
+      #nougat {
         width: 500px;
+      }
+
+      .ingredients,
+      .steps {
+        background-color: rgb(240, 210, 170);
+        background-blend-mode: hue;
+        border-radius: 10px;
+        width: 650px;
       }
     </style>
   </head>
   <body>
-    <a href="../index.html">Back</a>
+    <a id="back" href="../index.html">Back</a>
     <h1>Joey's Corn flake chocolate</h1>
     <p style="width: 800px">
       A simple yet delicious recipe, with only three ingredients!
     </p>
     <img
+      id="nougat"
       src="../images/nougat.jpg"
       alt="A picture of corn flake chocolate nougat"
     />
     <!--Ingredients-->
-    <div>
+    <div class="ingredients">
       <h3>Ingredients:</h3>
       <ul>
         <li>4 dl cornflakes</li>
@@ -33,7 +46,7 @@
       </ul>
     </div>
     <!--Steps-->
-    <div>
+    <div class="steps">
       <h3>Steps:</h3>
       <ol>
         <li>
