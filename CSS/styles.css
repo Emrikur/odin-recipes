@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(249, 241, 230, 0.985);
+}
+a:hover {
+  background-color: rgb(250, 204, 140);
+}
+
+.button {
+  
+}
+p {
+    width: 650px
+}
+
+#dinnerimg {
+    width: 450px;
+  }
+.hyperlink {
+    background-color: rgb(247, 234, 214);
+    background-blend-mode: hue;
+    width: 200px;
+    border-radius: 10px;
+  }

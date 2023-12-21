@@ -1,0 +1,41 @@
+
+
+body {
+    background-color: blanchedalmond;
+    font-family: Verdana, "Times new roman", Tahoma, sans-serif;
+}
+
+.ingredients {
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-blend-mode: hue;
+    background-color: rgb(249, 211, 166);
+    border-radius: 10px;
+}
+
+.steps {
+    margin-left: 400px; margin-top: 30px; width: 600px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-blend-mode: hue;
+    background-color: rgb(249, 211, 166);
+    border-radius: 10px;
+}
+
+
+#back {
+    color: black;
+  }
+
+.pie {
+    width: 500px;
+    margin-left: 100px;
+    
+      }
+
+.presentation {
+    width: 300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 100px;
+    font-size: 22px;
+    font-weight: lighter;
+}
